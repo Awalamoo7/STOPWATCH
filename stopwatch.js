@@ -34,6 +34,6 @@ function StopWatch () {
     };
 
     Object.defineProperty (this, 'duration',{
-        get function () { return duration}
+        get : () => duration
     })
 }
